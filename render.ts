@@ -10,8 +10,8 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false, // use STARTTLS
   auth: {
-    user: "mail@dhruv.hosts", // full address (e.g. you@yourdomain.com)
-    pass: process.env.EMAIL_PASS, // app-specific password from Apple ID
+    user: "mail@dhruvs.host", // full address (e.g. you@yourdomain.com)
+    pass: "tgwh-rhpl-vtdn-czih", // app-specific password from Apple ID
   },
 });
 
